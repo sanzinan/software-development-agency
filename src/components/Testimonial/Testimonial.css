@@ -1,0 +1,20 @@
+.testimonial{
+    background-image: url('https://i.ibb.co/PcCpY2t/test-bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider-cart{
+   align-items: center;
+   justify-content: center;
+   height: 430px;
+   width: 100%;
+   padding: 100px;
+   background: transparent !important;
+   border: none !important;
+}
+.slider-cart img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}

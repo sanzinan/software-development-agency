@@ -1,0 +1,11 @@
+.manage__header{
+    padding: 20px 0px;
+    background: rgb(241, 241, 241);
+    border-radius: 5px;
+    margin: 15px;
+}
+.content__table{
+    background: rgb(241, 241, 241);
+    margin: 15px;
+    border-radius: 5px;
+}

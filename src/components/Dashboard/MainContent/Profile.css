@@ -1,0 +1,60 @@
+#profile-main-card {
+    max-width: 300px;
+    box-shadow: -5px 2px 18px 4px #ccc;
+}
+
+.profile-cover-photo {
+    background: #0ab581;
+    width: 300px;
+    height: 100px;
+}
+
+.profile-photo {
+    background: #f9f9f9;
+    width: 300px;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.profile-photo > img {
+    position: relative;
+    top: -50px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    box-shadow: -1px 1px 11px 6px rgba(189, 172, 172, 0.33);
+}
+.profile-content {
+    background: #f9f9f9;
+    width: 300px;
+    height: 100px;
+    position: relative;
+}
+
+.profile-contact {
+    background: #30354d;
+    width: 300px;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#profile-main-card:hover {
+    -webkit-animation-name: pulse;  
+    animation-name: pulse;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}

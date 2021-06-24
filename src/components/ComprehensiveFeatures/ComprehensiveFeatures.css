@@ -1,0 +1,29 @@
+.features-service-section {
+    padding: 20px;
+   
+  }
+  .features-single-service {
+    text-align: left;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 20px #f1f1f1;
+    transition: .5s;
+    background: rgb(221, 224, 224);
+    
+  }
+
+  .features-single-service:hover {
+    box-shadow: 0px 30px 50px 0px rgba(0, 0, 29, 0.1);
+    transform: translateY(-5px);
+  }
+  .features-single-service h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .features-single-service p {
+      text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+    color: #777;
+  }
